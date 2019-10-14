@@ -13,6 +13,8 @@
 		FB0105EA2354377600595617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0105E82354377600595617 /* Main.storyboard */; };
 		FB0105EC2354377B00595617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0105EB2354377B00595617 /* Assets.xcassets */; };
 		FB0105EF2354377B00595617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0105ED2354377B00595617 /* LaunchScreen.storyboard */; };
+		FB8B85722354728B00580136 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8B85712354728B00580136 /* TasksViewController.swift */; };
+		FB8B8575235472F500580136 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8B8574235472F500580136 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FB0105EB2354377B00595617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB0105EE2354377B00595617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB0105F02354377B00595617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8B85712354728B00580136 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		FB8B8574235472F500580136 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,33 @@
 		FB0105E12354377600595617 /* ToDoFirebase */ = {
 			isa = PBXGroup;
 			children = (
-				FB0105E22354377600595617 /* AppDelegate.swift */,
+				FB0105F02354377B00595617 /* Info.plist */,
+				FB8B8574235472F500580136 /* Default-568h@2x.png */,
+				FB8B85762354731B00580136 /* Controllers */,
+				FB8B8573235472D400580136 /* Supporting files */,
+			);
+			path = ToDoFirebase;
+			sourceTree = "<group>";
+		};
+		FB8B8573235472D400580136 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
 				FB0105E42354377600595617 /* SceneDelegate.swift */,
-				FB0105E62354377600595617 /* ViewController.swift */,
+				FB0105E22354377600595617 /* AppDelegate.swift */,
 				FB0105E82354377600595617 /* Main.storyboard */,
 				FB0105EB2354377B00595617 /* Assets.xcassets */,
 				FB0105ED2354377B00595617 /* LaunchScreen.storyboard */,
-				FB0105F02354377B00595617 /* Info.plist */,
 			);
-			path = ToDoFirebase;
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		FB8B85762354731B00580136 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB0105E62354377600595617 /* ViewController.swift */,
+				FB8B85712354728B00580136 /* TasksViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB0105EF2354377B00595617 /* LaunchScreen.storyboard in Resources */,
+				FB8B8575235472F500580136 /* Default-568h@2x.png in Resources */,
 				FB0105EC2354377B00595617 /* Assets.xcassets in Resources */,
 				FB0105EA2354377600595617 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB0105E72354377600595617 /* ViewController.swift in Sources */,
+				FB8B85722354728B00580136 /* TasksViewController.swift in Sources */,
 				FB0105E32354377600595617 /* AppDelegate.swift in Sources */,
 				FB0105E52354377600595617 /* SceneDelegate.swift in Sources */,
 			);
